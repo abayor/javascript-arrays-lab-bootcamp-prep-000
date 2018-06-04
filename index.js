@@ -39,7 +39,7 @@ function prependKitten(name){
 }
 
 function removeFirstKitten(){
-  var newArray = [...kittens.shift()]
+  var newArray = [...kittens.slice()]
   return newArray;
 }
 function removeLastKitten(){
