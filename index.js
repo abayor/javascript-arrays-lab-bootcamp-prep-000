@@ -28,7 +28,13 @@ function appendKitten(name) {
   return newArray;
 };*/
 function appendKitten(name){
-  var newArray = new Kittens(newArray.push("Broom"));
+   var newArray = [
+    kittens[0],
+    kittens[1],
+    kittens[2],
+    name
+  ];
+  
    return newArray
    
 }
