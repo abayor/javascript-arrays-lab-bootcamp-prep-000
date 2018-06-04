@@ -29,11 +29,10 @@ function appendKitten(name) {
 };*/
 function appendKitten(name){
    var newArray = [...kittens,name];
-  
-   return newArray
+  return newArray
    
 }
 
 function prependKitten(name){
-    kittens.pop("Broom")
+   var newArray = ["Arnold", ...kittens]
 }
