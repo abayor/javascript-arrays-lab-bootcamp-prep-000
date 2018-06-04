@@ -38,4 +38,7 @@ function prependKitten(name){
    return newArray
 }
 
-function 
+function removeFirstKitten(){
+  var newArray = kittens.splice(1)
+  return newArray;
+}
