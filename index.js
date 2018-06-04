@@ -28,7 +28,7 @@ function appendKitten(name) {
   return newArray;
 };*/
 function appendKitten(name){
-  var newArray = new Kittens("Broom");
+  var newArray = new Kittens(newArray.push("Broom"));
    return newArray
    
 }
